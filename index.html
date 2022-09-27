@@ -18,13 +18,43 @@
         <div class="container">
 
             <h1>The Bike Shop of Birmingham</h1>
-        <h2>Trek Bikes</h2>
+        <h2>Variety of Bikes</h2>
         </div>
 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="./trek.html">Bike</a>
-            <a href="service.html">Service</a>
+        <nav class="navbar navbar-expand-sm navbar-drak bg-dark"
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="navbar-collapse" data-target="navbarNavDropdown" aria-contol="navbarNavDropdown" aria-expanded="false" aria-label="Toggle naviagation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a href="#">Home</a>
+            </li><br>
+            <li class="nav-item">
+                <a href="./trek.html">Bikes</a>
+            </li><br>
+            <li class="nav-item">
+                <a href="service.html">Service</a>
+            </li><br>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#"id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+            Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Electric</a><br>
+                <a class="dropdown-item" href="#">Hybird</a><br>
+                <a class="dropdown-item" href="#">Mountain</a><br>
+                <a class="dropdown-item" href="#">Road</a>
+            </div>
+         </li>
+        </ul>
+
+    </div>
+
+
         </nav>
+        <img src="https://hips.hearstapps.com/hmg-prod/images/allbikes-1539286251.jpg?crop=0.987xw:1.00xh;0.00814xw,0&resize=1200:*" />
     </body>
 </html>
